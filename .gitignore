@@ -1,5 +1,21 @@
-# dependencies
+# vendor packages
 node_modules
 
-# logs
+# project meta
+.idea
+.settings
+*.sublime-project
+*.sublime-workspace
+
+# npm cruft
 npm-debug.log
+
+# test cruft
+selenium-debug.log
+test/reports
+
+# macOS
+.DS_Store
+
+# static
+static
